@@ -17,14 +17,14 @@ export default function Index() {
             <div className="absolute bottom-[-10%] right-[-10%] w-[500px] h-[500px] bg-[#14F195] rounded-full mix-blend-screen filter blur-[128px] opacity-10"></div>
         </div>
 
-      <GameNav />
+        <GameNav />
 
-      <main className="max-w-6xl mx-auto px-4 pt-12 flex flex-col gap-16">
-        <GameSelector />
-        <GameManage />
-      </main>
+        <main className="max-w-6xl mx-auto px-4 pt-12 flex flex-col gap-16">
+            <GameSelector />
+            <GameManage />
+        </main>
 
-      <FloatingButton />
+        <FloatingButton />
 
     </div>
   );
